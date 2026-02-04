@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://django-backend-l73i.onrender.com";
 
 export const loginUser = async (username, password) => {
   const response = await fetch(`${BASE_URL}/api/token/`, {
